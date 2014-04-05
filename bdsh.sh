@@ -70,7 +70,7 @@ then touch $variable5
     fi
 fi
 
-#Si -f est precede de dell ou select(avec keys)
+#Si -f est precede de del ou select(avec keys)
 if [ $variable3 == "-f" ] && [ $variable1 == "del" ] || [ $variable3 == "-f" ] && [ $variable1 == "select"] && [ ! -f ${variable2} ];
 then touch $variable4
     if [ $variable1 == "del" ];
